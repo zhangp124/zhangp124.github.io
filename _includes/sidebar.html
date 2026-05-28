@@ -1,11 +1,26 @@
-<nav class="sidebar-nav">
-  <a class="sidebar-nav-item active" href="/">Home</a>
-  <a class="sidebar-nav-item" href="/about">About</a>
-  <a class="sidebar-nav-item" href="/projects">Projects</a>
-</nav>
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.tagline }}</p>
+    </div>
 
-<p>
-  <a href="mailto:pz1249@gmail.com">pz1249@gmail.com</a><br>
-  <a href="https://github.com/zhangp124">GitHub</a><br>
-  <a href="https://www.linkedin.com/in/peter-zhang-4a684023b">LinkedIn</a>
-</p>
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item active" href="/">Home</a>
+      <a class="sidebar-nav-item" href="/about">About</a>
+      <a class="sidebar-nav-item" href="/projects">Projects</a>
+    </nav>
+
+    <p>
+      <a href="mailto:pz1249@gmail.com">pz1249@gmail.com</a><br>
+      <a href="https://github.com/zhangp124">GitHub</a><br>
+      <a href="https://www.linkedin.com/in/peter-zhang-4a684023b">LinkedIn</a>
+    </p>
+
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+</div>
