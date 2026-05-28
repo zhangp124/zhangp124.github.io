@@ -27,8 +27,10 @@ A relational database system built from an open-source Kaggle dataset for analyz
 - Transformed raw CSV data into a normalized schema with multiple related entities
 - Developed SQL queries using JOIN, GROUP BY, and aggregate functions to analyze performance metrics
 
+[View on GitHub →](https://github.com/zhangp124/NBA-Analytics-Database)
+
 ## 📊 Power BI — NBA Performance Analytics Dashboard
 
 An interactive Power BI dashboard integrating player, team, and game dat multiple seasons
 
-[View on GitHub →](https://github.com/zhangp124/nba-powerbi-dashboard)
+[View on GitHub →](https://github.com/zhangp124/NBA-Analytics-Database/blob/main/notebooks/nba_example.png)
