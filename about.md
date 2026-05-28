@@ -1,6 +1,5 @@
 ---
 layout: page
-title: About
 ---
 
 Hi, I'm Peter Zhang — a data analytics enthusiast based in New York City, currently studying Computer Information Systems at Baruch College's Zicklin School of Business (graduating January 2027), with a minor in Psychology.
