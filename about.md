@@ -1,12 +1,11 @@
 ---
 layout: page
+title: About
 ---
 
 Hi, I'm Peter Zhang — a data analytics enthusiast based in New York City, currently studying Computer Information Systems at Baruch College's Zicklin School of Business (graduating January 2027), with a minor in Psychology.
 
 I'm drawn to the intersection of technology and decision-making — using data to uncover patterns, tell stories, and drive meaningful outcomes. Whether it's building an NLP pipeline, designing a SQL database, or creating an interactive Power BI dashboard, I enjoy turning complex data into something actionable and clear.
-
----
 
 ## 🎓 Education
 
@@ -25,8 +24,6 @@ Minor in Psychology | Graduating January 2027
 | Business Analytics | |
 | Digital Forensics | |
 
----
-
 ## 🛠️ Skills
 
 **Programming:** Python (Pandas, NumPy), SQL, C++
@@ -34,8 +31,6 @@ Minor in Psychology | Graduating January 2027
 **Data & Analytics:** Data Visualization, Predictive Modeling, Natural Language Processing (NLP)
 
 **Tools:** Power BI, Tableau, Excel, Alteryx, Autopsy
-
----
 
 ## 💼 Experience
 
@@ -46,13 +41,9 @@ Minor in Psychology | Graduating January 2027
 - Foster a structured, inclusive, and motivating learning environment that supports academic success and interpersonal growth
 - Model positive behavior, conflict resolution, and teamwork during daily activities
 
----
-
 ## 🧠 Why Psychology + CIS?
 
 Studying Psychology alongside Computer Information Systems gives me a unique edge — I don't just think about the data, I think about the people behind it. Understanding human behavior helps me ask better questions, design more intuitive dashboards, and communicate findings in ways that actually resonate with decision-makers.
-
----
 
 ## 🔮 What I'm Looking For
 
