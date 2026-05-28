@@ -1,37 +1,28 @@
 ---
-layout: default
-title: Home
+layout: page
+title: Hi, I'm Peter Zhang
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<p>I'm a Computer Information Systems student at Baruch College, graduating January 2027.
+I'm passionate about data analytics, turning raw data into meaningful insights, and open
+to learning new technology and skills..</p>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+<h2>Skills</h2>
+<p><strong>Programming:</strong> Python (Pandas, NumPy), C++, SQL<br>
+<strong>Analytics:</strong> Data Visualization, Predictive Modeling, NLP<br>
+<strong>Tools:</strong> Power BI, Tableau, Excel, Alteryx</p>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+<h2>Projects</h2>
+<p><strong>Named Entity Recognition (NER) Integration</strong> — Automated text analysis system
+using Python and the Gemini API to identify and explain key entities in text.</p>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<p><strong>NBA Performance Analytics</strong> — Relational database and Power BI dashboard
+analyzing player and team performance across seasons using SQL and DAX.</p>
+
+<h2>Experience</h2>
+<p><strong>Group Leader</strong> — Chinese-American Planning Council (July 2025–Present)<br>
+Mentoring students through academic work in an inclusive learning environment.</p>
+
+<h2>Education</h2>
+<p><strong>Baruch College, Zicklin School of Business</strong><br>
+BBA in Computer Information Systems, Minor in Psychology — January 2027</p>
