@@ -1,26 +1,27 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown: kramdown
 
 # Permalinks
-permalink:        pretty
-relative_permalinks: true
+permalink: pretty
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
-
+title: Peter Zhang
+tagline: Aspiring Data Analyst
+description: CS & Data Analytics student at Baruch College
+url: https://zhangp124.github.io
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name: Peter Zhang
+  email: pz1249@gmail.com
+  url: https://zhangp124.github.io
 
-paginate:         5
+# Hyde theme options
+highlighter: rouge
+paginate: 5
 
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+# Sidebar color theme
+# Available: theme-base-08 (red), theme-base-09 (orange),
+#            theme-base-0a (yellow), theme-base-0b (green),
+#            theme-base-0c (teal), theme-base-0d (blue),
+#            theme-base-0e (purple), theme-base-0f (brown)
+hyde:
+  theme: theme-base-0d
